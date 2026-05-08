@@ -49,6 +49,8 @@ Penjelasan kode per baris:
 * memanggil fungsi `main()` untuk mulai menjalankan keseluruhan program
 
 D. Output Program
-
+<img width="509" height="175" alt="Cuplikan layar 2026-05-08 234540" src="https://github.com/user-attachments/assets/7b04866a-35ce-40f4-af38-c11facc6e787" />
 Penjelasan Output:
 Program dijalankan dan pertama-tama akan meminta user menginputkan jumlah buku. Misalnya user menginputkan angka 3. Program selanjutnya meminta input judul buku satu per satu. Pada Buku ke-1, user memasukkan judul "rekayasa perangkat lunak". Pada Buku ke-2, user memasukkan judul "struktur data". Pada Buku ke-3, user memasukkan judul "aljabar matrix". Setelah semua judul masuk ke dalam list, program secara otomatis mengurutkan buku secara alfabetis dari A ke Z, sehingga posisi indeksnya berubah. Program kemudian mencetak "Daftar Buku Terurut: ['aljabar matrix', 'rekayasa perangkat lunak', 'struktur data']" di layar. Selanjutnya, program meminta user memasukkan judul buku yang ingin dicari. User mengetikkan "struktur data" (dengan huruf kecil semua). Program akan menjalankan algoritma Binary Search dan mencetak log "Mengecek indeks ke-1, judul: rekayasa perangkat lunak". Karena abjad awal huruf 's' pada struktur data urutannya lebih besar/setelah huruf 'r' pada rekayasa perangkat lunak, program mencetak log kedua: "Mencari di kanan (abjad lebih besar)". Program kemudian mengecek indeks ke-2 dan menemukan targetnya. Terakhir, program mencetak pesan "Buku ditemukan pada indeks ke-2" dan program pun selesai dijalankan.program mencetak pesan "Buku ditemukan pada indeks ke-2" dan program pun selesai dijalankan.
+
+E. Link youtube
