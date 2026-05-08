@@ -4,7 +4,8 @@ B. Deskripsi Singkat
 Program tersebut berfungsi sebagai sistem sederhana untuk manajemen inventaris atau pendataan stok barang. Pengguna dapat mendata jumlah jenis barang, lalu memasukkan nama barang beserta jumlah stoknya masing-masing. Program dilengkapi dengan validasi input menggunakan *try-except* untuk memastikan jumlah barang dan jumlah stok yang dimasukkan berupa angka yang valid agar tidak menimbulkan error. Struktur data yang digunakan dalam program ini melibatkan list 1 dimensi (`arr`) untuk menampung nama-nama barang agar dapat diurutkan, dan tipe data *dictionary* (`data_stok`) untuk memetakan nama barang dengan nilai stoknya. Setelah data dimasukkan, program secara otomatis akan mengurutkan nama barang secara alfabetis (A-Z) menggunakan fungsi bawaan *sort()*. Selanjutnya, pengguna dapat melakukan pencarian nama barang menggunakan algoritma *Binary Search*. Algoritma ini membagi dua rentang pencarian secara terus-menerus hingga menemukan nilai target, lalu mengembalikan posisi indeks barang tersebut untuk ditampilkan jumlah stoknya ke layar.
 
 C. Source Code Penjelasan kode per baris:
-
+<img width="426" height="470" alt="Cuplikan layar 2026-05-08 214024" src="https://github.com/user-attachments/assets/9504e60e-3b3f-475d-9b7f-0b4ca86e7262" />
+<img width="509" height="479" alt="Cuplikan layar 2026-05-08 214041" src="https://github.com/user-attachments/assets/ddb46357-bb19-4689-915f-d385dc306b7d" />
 1. membuat fungsi `binary_search(arr, n, target)` untuk pencarian data
 2. menginisialisasi variabel `l` (batas kiri pencarian) dengan nilai 0
 3. menginisialisasi variabel `r` (batas kanan pencarian) dengan nilai `n - 1` (indeks terakhir)
